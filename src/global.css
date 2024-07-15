@@ -11,6 +11,17 @@
     margin: 0 auto;
 }
 
+.form-control-item {
+    display: block;
+    background-color: var(--corSecundaria);
+    color: var(--corPrincipal);
+    text-align: center;
+    font-weight: bold;
+    padding: 8px;
+    text-decoration: none;
+    align-items: center;
+}
+
 :root {
     --corPrincipal: #1abc9c;
     --corSecundaria: #111;

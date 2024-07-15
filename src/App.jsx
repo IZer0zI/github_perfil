@@ -10,7 +10,14 @@ function App() {
 
   return (
     <>
-      <input type="text" onBlur={(e) => setNomeUsuario(e.target.value)} />
+      <div className="form-control">
+        <input
+          type="text"
+          placeholder="Digite o nome do usuário"
+          onBlur={(e) => setNomeUsuario(e.target.value)}
+          className="form-control-item"
+        />
+      </div>
 
       {nomeUsuario.length > 4 && (
         <>
